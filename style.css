@@ -23,7 +23,6 @@ body{
 }
 
 .picture{
-    width:100%;
     color: var(--Soft-Magenta);
 }
 
@@ -95,18 +94,15 @@ body{
     }
 
     .contents{
+        width: 90vw;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-    
     }
 
-    .logo-box  ; .items ; .footer{
-        height: 33.33333333333333vh;
-       
-    }
+ 
     .logo-box{
-        margin: 35px 0;
+        padding-left: 5%;
+        margin: 32px 0;
     }
     .logo{
         width:40%
@@ -146,6 +142,8 @@ body{
         margin:40px 0;
     }
 }
+
+
 
 
 @media (min-width:1024px){
